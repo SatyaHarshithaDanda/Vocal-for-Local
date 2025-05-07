@@ -1,0 +1,209 @@
+/* STYLE SECTIONING TAGS */
+/* Reset the space of the webpage */
+* {margin: 0px; 
+ padding: 0px;}
+
+body {
+ background-color: rgb(238, 194, 25); 
+ text-align: center
+}
+
+header {background-color: rgb(186, 15, 107)}
+/* STYLE TEXT */
+h1 {
+  font-family:'Rage Italic';
+  font-size: 4pc;
+  color: aliceblue;
+  text-align: center
+  }
+  .subtitle{
+  text-align: center;
+  font-family: Mistral;
+  font-size: 25px;
+  color: aliceblue;
+  padding-bottom: 10px;
+}
+h2 {
+  color: rgb(156, 11, 88);
+  font-size: 2em;
+}
+h3 {
+  color: rgb(156, 11, 88);
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.30pc;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* text-align: justify; */
+  } 
+
+/* STYLE IMAGES */
+img {
+  display: block;             
+  margin-left: auto;
+  margin-right: auto;
+   padding-top: 0.4em;
+}
+
+#logo {border-radius: 55%;
+       padding-bottom: 1em
+}
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {
+           
+  flex-basis: 100%;    
+  margin: 1%;          
+}
+/* STYLE NAV BAR */
+ul {
+ list-style-type: none;
+ background-color: rgb(254, 147, 69); 
+ overflow: hidden;
+ padding: 0.65em
+}
+li {display: inline}
+li a {
+  text-decoration: none;
+  font-family: Calibri;
+  color: aliceblue;
+  font-size: 1.3em;
+  padding: 1em
+}
+li a:hover {
+  background-color: rgb(222, 78, 78)
+}
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: rgb(222, 78, 78);
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-size: 1.45em;
+  text-align: center;
+  line-height: 1.2em;
+  color:aliceblue;
+}
+#fact {
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: rgb(156, 11, 88)}
+ 
+/* STYLE BUTTONS */
+#factBtn {
+  background: rgb(254, 147, 69); 
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: aliceblue;
+  font-size: 0.8em;
+}
+
+#pledgeBtn {
+  background: rgb(254, 147, 69);
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: aliceblue;
+  font-size: 1.50pc;
+}
+/* ADD MORE! */
+.pledgeQues {
+  background: rgb(222, 78, 78);
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-size: 1.50pc;
+  color: aliceblue;
+}
+
+.pledgeItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#pledgeReturned {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 2pc;
+  color: rgb(34, 6, 159);
+}
+
+#normal{
+  background-color: rgb(238, 194, 25);
+  font-size: 1.50pc;
+}
+
+#space{
+  padding-top: 20px;
+  color: rgb(34, 6, 159);
+}
+
+#weave{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#readMore{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  color:red;
+  font-size: 1pc;
+  }
+
+@media screen and (max-width: 850px;){
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
+
+
